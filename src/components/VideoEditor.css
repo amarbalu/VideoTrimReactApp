@@ -1,0 +1,29 @@
+.frame-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.frame {
+  width: 80px;
+  height: 60px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.frame.selected {
+  border: 2px solid red;
+  transform: scale(1.1);
+}
+
+.upload-div, .conversion-div, .result-div {
+  margin-top: 20px;
+}
+
+.trimmed-video {
+  width: 100%;
+  height: auto;
+}
